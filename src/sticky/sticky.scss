@@ -1,0 +1,30 @@
+.row-sticky {
+  position: relative;
+  margin-top: 50px;
+}
+
+.sticky-content {
+  //border: solid 1px #f0f;
+  position: relative;
+  width: 100%;
+  z-index: 200;
+}
+
+.sticky-content.fixed {
+  //border: 1px solid red;
+  position: fixed;
+  max-width: 1060px;
+  top: 0px;
+  left: inherit;
+  height: 35px;
+  background: linear-gradient(
+    -90deg,
+    rgba(53, 66, 103, 0.05) 0%,
+    #151824 95.04%
+  );
+  z-index: 150;
+}
+
+.container-slider {
+  position: relative;
+}
